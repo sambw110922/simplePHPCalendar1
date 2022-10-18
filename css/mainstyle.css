@@ -1,0 +1,93 @@
+
+/*
+    This is the main stylesheet for the web page.
+*/
+
+html, body {
+    padding: 0;
+    margin: 0;
+    background-color: #EAEAEA;
+    font-family: "Ubuntu", sans-serif;
+    font-size: 18px;
+}
+
+nav {
+    background-color: #62a0ea;
+    padding: 5%;
+    text-align: center;
+}
+
+nav a {
+    color: black;
+}
+
+nav a:hover {
+    text-decoration: none;
+}
+
+footer {
+    background-color: #252525;
+    color: white;
+    padding: 2%;
+    margin-top: 2%;
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+    font-size: 2em;
+}
+
+h2 {
+    text-align: center;
+    font-size: 1.8em;
+}
+
+h3 {
+    font-size: 1.5em;
+}
+
+p {
+    font-size: 1.2em;
+}
+
+#hero {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #373737;
+    padding: 5%;
+    color: white;
+    margin-top: 5%;
+}
+
+.month {
+    display: flex;
+    flex-direction: column;
+    padding: 5%;
+}
+
+.month table {
+    width: 100%;
+    padding: 2%;
+    background-color: white;
+}
+
+td {
+    padding: 2%;
+    border-style: solid;
+    border-width: 1px;
+    text-align: right;
+}
+
+.pinkWeek {
+    background-color: #EA59F2;
+    color: white;
+    font-weight: bold;
+}
+
+.greenWeek {
+    background-color: #C1FF79;
+    color: black;
+    font-weight: bold;
+}
